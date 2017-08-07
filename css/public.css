@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dt,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;} 
+body{word-wrap:break-word;}
+a,u,del{color:#666;text-decoration:none;} 
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;} /*清除img下方自带3px，同时垂直居中*/
+table{border-collapse:collapse;}
+
+.ind2{text-indent:2em;}
+ 
+.over{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}/*文本溢出隐藏，必须配合width使用*/
+
+.valign{text-align:center;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;width:0px;height:100%;}
+.valign img{vertical-align:middle;}/*img水平垂直居中*/
+
+
+.clear{zoom:1;}
+.clear:before{content:"";display:table;}
+.clear:after{content:"";display:block;clear:both;}/*万能清除法*/
+
+

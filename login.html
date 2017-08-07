@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	</head>
+	<body>
+		<section>
+			<a href="#" class="logo"><img src="images/t4.png"></a>
+			<div class="content">
+				<div class="code_1">
+					<h3>手机扫码，安全登录</h3>
+					<img src="images/code.png" class="img1">
+					<div class="open">
+						<img src="images/code2.png">
+						<p>
+							<span>打开</span><a href="#">手机天猫</a><span>|</span><a href="#">手机淘宝</a><br>
+							<span>扫一扫登录</span>
+						</p>
+					</div>
+					<div class="mima"><a href="#">密码登录</a><a href="register.html">免费注册</a></div>
+					<a href="#"><img src="images/t5.png" class="img2"></a>
+					<img src="images/t6.png" class="img3">
+				</div>
+				<div class="code_2">
+					<h3>密码登录</h3>
+					<div class="inp">
+						<input type="text" placeholder="会员名/邮箱/手机号" id="txt">
+						<input type="password" id="psw">
+						<button>登 录</button>
+					</div>
+					<div class="mima"><a href="#">忘记密码</a><a href="#">忘记会员名</a><a href="register.html">免费注册</a></div>
+					<a href="#"><img src="images/t8.png" class="img2"></a>
+					<img src="images/t7.png" class="img3">
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript">
+			$(function(){
+				$(".code_1 .img2").click(function(){
+					$(".code_1").hide().next().show();
+				})
+				$(".code_1 .mima a:first-child").click(function(){
+					$(".code_1").hide().next().show();
+				});
+				$(".code_2 .img2").click(function(){
+					$(".code_2").hide().prev().show();
+				})
+			})
+		</script>
+	</body>
+</html>

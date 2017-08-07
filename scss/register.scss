@@ -1,0 +1,184 @@
+@charset "utf-8";
+.margin{width:990px;margin:0 auto;}
+header{
+    height:46px;
+    .margin{border-bottom:1px solid #e6e6e6;}
+    ul{
+        margin-left:135px;
+        li{
+            width:180px;
+            float:left;
+            font:700 16px/46px "";
+            color:#999;  
+            text-align:center;          
+            span{
+                display:inline-block;
+                width:24px;height:24px;line-height:24px;
+                color:#fff;
+                background:#ccc;
+                border-radius:50%;
+                text-align:center;
+            }
+            
+        }
+        .active{            
+            span{background:#ff0036;}
+            border-bottom:1px solid #ff0036;
+            color:#000;
+        }
+    }
+}
+#content{
+    .con_1{
+        padding:108px 0 0 315px;
+    }
+    .phone{
+        label{display:inline-block;width:60px;text-align:right;margin-right:20px;}
+        select{width:160px;height:35px;border:1px solid #ccc;}
+        option{
+            font:700 14px/35px "";color:#000;text-indent: 10px;            
+        }
+        #txt{width:148px;height:33px;border:1px solid #ccc;padding:0 5px;}   
+        #txt.change::placeholder{color:#ff0036;}     
+    }    
+    .verify{
+        margin-top:20px;
+        label{display:inline-block;width:60px;text-align:right;margin-right:20px;}
+        .box{
+            width:300px;height:34px;
+            background:#e8e8e8;
+            display:inline-block;
+            font:14px/34px "";
+            color:#9c9c9c;
+            position: relative;
+            text-indent: 78px;
+            .drag{
+                display:inline-block;width:40px;height:32px;
+                border:1px solid #ccc;
+                text-indent: 10px;
+                background:#fff;
+                position:absolute;
+                left:0;top:0;
+                cursor: point;
+            }
+        }
+    }
+    #btn,#btn3{
+        width:180px;height:36px;
+        background:#ededed;
+        text-align:center;
+        font:16px/36px "";color:#fff;
+        border:0;
+        outline: none;
+        margin:32px 0 0 80px;
+    }
+    #btn3{background:#ff0036;}
+}
+#cover{
+    display:none;
+    width:722px;height:432px;
+    border:1px solid #ddd;
+    border-top:1px solid #ff0036;
+    font:14px/24px "";color:#333;
+    padding:12px 20px;
+    position: absolute;
+    background:#fff;
+    left:0;top:0;right:0;bottom:0;margin:auto;
+    h3{font:700 16px/38px ""}
+    b{font-weight:700;text-decoration: underline;}
+    a{color:#ff0036;font:14px/28px "";}
+    a:hover{text-decoration: underline;}
+    #btn2{border:0;position: absolute;right:20px;top:10px;background:#fff;font-size:20px;color:#ff0036;}
+    #btn1{display:block;margin:0 auto;width:180px;height:36px;background:#ff0036;font:16px/36px "";color:#fff;outline: none;border:0;}
+}
+.con_2{
+    display:none; font:14px "";color:#000;
+    padding:54px 0 0 280px;
+    position: relative;
+    label{display:inline-block;width:104px;text-align:right;margin-right:20px;}
+    div.pass{             
+        h3 span{line-height:78px;font-weight:100;}
+        #psw1,#psw2{width:210px;height:34px;border:1px solid #dedede;padding:0 5px;margin-bottom:20px;} 
+        #psw2.change::placeholder{color:#ff0036;}       
+    }
+    div.vip{  
+        p{margin-top:30px;}       
+        #txt2{display:inline-block;width:220px;height:34px;border:1px solid #dedede;padding:0 5px;}
+        #txt2.change::placeholder{color:#ff0036;}   
+        #btn2{background:#ff0036;}
+    }
+    div.msg1{
+        display:none;
+        width:298px;height:136px;
+        border:1px solid #ccc;
+        font:14px/24px "";color:#000;
+        padding:10px 0 0 18px;
+        position:absolute;
+        top:100px;right:34px;
+        span{width:25px;height:10px;background:#ccc;margin-right:1px;display:inline-block;}
+        span:first-child{margin-left:32px;}
+    }
+    .msg2,.msg3{display:none;}       
+}
+div.con_3{
+    display:none;
+    font:30px "";color:green;
+    padding:54px 0 0 280px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,201 @@
+.margin {
+  width: 990px;
+  margin: 0 auto; }
+
+header {
+  height: 46px; }
+  header .margin {
+    border-bottom: 1px solid #e6e6e6; }
+  header ul {
+    margin-left: 135px; }
+    header ul li {
+      width: 180px;
+      float: left;
+      font: 700 16px/46px "";
+      color: #999;
+      text-align: center; }
+      header ul li span {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        color: #fff;
+        background: #ccc;
+        border-radius: 50%;
+        text-align: center; }
+    header ul .active {
+      border-bottom: 1px solid #ff0036;
+      color: #000; }
+      header ul .active span {
+        background: #ff0036; }
+
+#content .con_1 {
+  padding: 108px 0 0 315px; }
+#content .phone label {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  margin-right: 20px; }
+#content .phone select {
+  width: 160px;
+  height: 35px;
+  border: 1px solid #ccc; }
+#content .phone option {
+  font: 700 14px/35px "";
+  color: #000;
+  text-indent: 10px; }
+#content .phone #txt {
+  width: 148px;
+  height: 33px;
+  border: 1px solid #ccc;
+  padding: 0 5px; }
+#content .phone #txt.change::placeholder {
+  color: #ff0036; }
+#content .verify {
+  margin-top: 20px; }
+  #content .verify label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-right: 20px; }
+  #content .verify .box {
+    width: 300px;
+    height: 34px;
+    background: #e8e8e8;
+    display: inline-block;
+    font: 14px/34px "";
+    color: #9c9c9c;
+    position: relative;
+    text-indent: 78px; }
+    #content .verify .box .drag {
+      display: inline-block;
+      width: 40px;
+      height: 32px;
+      border: 1px solid #ccc;
+      text-indent: 10px;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      cursor: point; }
+#content #btn, #content #btn3 {
+  width: 180px;
+  height: 36px;
+  background: #ededed;
+  text-align: center;
+  font: 16px/36px "";
+  color: #fff;
+  border: 0;
+  outline: none;
+  margin: 32px 0 0 80px; }
+#content #btn3 {
+  background: #ff0036; }
+
+#cover {
+  display: none;
+  width: 722px;
+  height: 432px;
+  border: 1px solid #ddd;
+  border-top: 1px solid #ff0036;
+  font: 14px/24px "";
+  color: #333;
+  padding: 12px 20px;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+  #cover h3 {
+    font: 700 16px/38px ""; }
+  #cover b {
+    font-weight: 700;
+    text-decoration: underline; }
+  #cover a {
+    color: #ff0036;
+    font: 14px/28px ""; }
+  #cover a:hover {
+    text-decoration: underline; }
+  #cover #btn2 {
+    border: 0;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: #fff;
+    font-size: 20px;
+    color: #ff0036; }
+  #cover #btn1 {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    height: 36px;
+    background: #ff0036;
+    font: 16px/36px "";
+    color: #fff;
+    outline: none;
+    border: 0; }
+
+.con_2 {
+  display: none;
+  font: 14px "";
+  color: #000;
+  padding: 54px 0 0 280px;
+  position: relative; }
+  .con_2 label {
+    display: inline-block;
+    width: 104px;
+    text-align: right;
+    margin-right: 20px; }
+  .con_2 div.pass h3 span {
+    line-height: 78px;
+    font-weight: 100; }
+  .con_2 div.pass #psw1, .con_2 div.pass #psw2 {
+    width: 210px;
+    height: 34px;
+    border: 1px solid #dedede;
+    padding: 0 5px;
+    margin-bottom: 20px; }
+  .con_2 div.pass #psw2.change::placeholder {
+    color: #ff0036; }
+  .con_2 div.vip p {
+    margin-top: 30px; }
+  .con_2 div.vip #txt2 {
+    display: inline-block;
+    width: 220px;
+    height: 34px;
+    border: 1px solid #dedede;
+    padding: 0 5px; }
+  .con_2 div.vip #txt2.change::placeholder {
+    color: #ff0036; }
+  .con_2 div.vip #btn2 {
+    background: #ff0036; }
+  .con_2 div.msg1 {
+    display: none;
+    width: 298px;
+    height: 136px;
+    border: 1px solid #ccc;
+    font: 14px/24px "";
+    color: #000;
+    padding: 10px 0 0 18px;
+    position: absolute;
+    top: 100px;
+    right: 34px; }
+    .con_2 div.msg1 span {
+      width: 25px;
+      height: 10px;
+      background: #ccc;
+      margin-right: 1px;
+      display: inline-block; }
+    .con_2 div.msg1 span:first-child {
+      margin-left: 32px; }
+  .con_2 .msg2, .con_2 .msg3 {
+    display: none; }
+
+div.con_3 {
+  display: none;
+  font: 30px "";
+  color: green;
+  padding: 54px 0 0 280px; }
+
+/*# sourceMappingURL=register.css.map */

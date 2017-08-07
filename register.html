@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div class="margin">
+				<ul class="clear">
+					<li class="active"><span>1</span> 设置用户名</li>
+					<li><span>2</span> 填写账户信息</li>	
+					<!--<li><span>3</span> 设置支付方式</li>-->
+					<li><span>√</span> 注册成功</li>
+				</ul>
+			</div>
+		</header>
+		<div id="content">
+			<div class="margin">
+				<div class="con_1">
+					<p class="phone">
+						<label>手机号</label>
+							<select>
+								<option>中国大陆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+86</option>
+								<option>中国台湾地区&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+886</option>
+								<option>中国香港&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+886</option>
+							</select>
+							<input type="text" placeholder="请输入你的手机号" id="txt">
+							<span style='display:none;color:red;font-size:6px;'>× 请输入你的手机号码</span>
+					</p>
+					<div class="verify">
+						<label>验证</label>
+						<p class="box">
+							<b class="drag">&gt;&gt;</b>
+							请按住滑块，拖动到最右边
+						</p>
+					</div>
+					<p><input type="button" value="下一步" id="btn"></p>
+				</div>				
+				<div class="con_2">
+					<p class="name"><label>登录名</label><span></span></p>
+					<div class="pass">
+						<h3><label>设置登录密码</label><span>登录时验证，保护找户信息</span></h3>
+						<p><label>登录密码</label><input type="password" placeholder="设置你的登录密码" id="psw1"></p>						
+						<p><label>密码确认</label><input type="password" placeholder="请再次输入你的密码" id="psw2"><span class="msg2">请再次输入你的密码</span></p>
+						
+					</div>
+					<div class="vip">
+						<h3><label>设置会员名</label></h3>
+						<p><label>登录名</label><input type="text" placeholder="会员名一旦设置成功，无法修改" id="txt2"><span class="msg3">建议会员名使用简体中文</span></p>						
+					</div>
+					<p><input type="button" value="提交" id="btn3"></p>
+					<div class="msg1">
+						<p>强度：<span></span><span></span><span></span></p>
+						<ul>
+							<li>6~20个字符</li>
+							<li>只能包含字母、数字以及空格</li>
+							<li>字母、数字和空格至少包含2种</li>
+						</ul>
+					</div>			
+				</div>
+				<div class="con_3">您已注册成功</div>								
+			</div>
+		</div>
+		<div id="cover">
+			<h3>注册协议</h3>
+			<p><b>【审慎阅读】</b>您在申请注册流程中点击同意前，应当认真阅读以下协议。<b>请您五笔审慎阅读、充分理解协议中相关条款内容，其中包括：<br/></b>
+				1.与您约定及范德萨会计法；<br />2.与您约定及范德萨会计法；<br />3.与您约定及范德萨会计法；<br />如您对协议看见撒娇发达省份，范德萨会计法多家萨芬。<br>
+				<b>【特别提示】</b>可及范德萨机房空间撒开房间撒酒疯空间撒发动机撒疯狂的撒酒疯空间撒发动机发来撒放大看见撒间撒开房间撒酒疯空间撒发动机撒疯狂的撒酒疯
+				娇发达鹅肉前日完全融为奇瑞诶厄我日哦间撒开房间撒酒疯空间撒发动机撒疯狂的撒酒疯
+				<br><b>阅读协议的过秤子哦，开发贷款撒娇发酒疯快接啊随机附件的撒旦附近。</b><br><a href="#">《淘宝服务协议》</a><br><a href="#">《淘宝服务协议》</a>
+				<br><a href="#">《淘宝服务协议》</a>						
+			</p>
+			<p><input type="button" value="同意协议" id="btn1"></p>
+			<button id="btn2">x</button>
+		</div>
+	</body>
+</html>
