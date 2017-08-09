@@ -39,7 +39,7 @@ $(function() {
 		}
 		
 		if($(".code_2 .inp #txt").attr("data-cl")=="ok" && $(".code_2 .inp #psw").attr("data-cl")=="ok"){
-			$(this).attr("href","main.html");					
+			$(this).attr("href","index.html");					
 		}
 		
 		

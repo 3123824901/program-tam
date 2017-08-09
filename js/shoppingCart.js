@@ -1,5 +1,5 @@
 $(function() {
-	$("header").load("index.html");
+	$("header").load("top.html");
 	$("footer").load("foot.html");
 	//cookie
 	var str2 = Cookies.get("cart");

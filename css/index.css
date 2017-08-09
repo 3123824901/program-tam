@@ -1,169 +1,289 @@
-@charset "UTF-8";
 .margin {
   width: 1230px;
   margin: 0 auto; }
 
-#top {
-  height: 32px;
-  border-bottom: 1px solid #e5e5e5;
-  background: #f2f2f2;
-  font-size: 12px;
-  line-height: 32px;
-  color: #999; }
-  #top .margin {
-    position: relative; }
-  #top a {
-    color: #999; }
-    #top a:hover {
-      color: #F42760; }
-  #top .top-l a {
-    margin-left: 15px; }
-  #top .top-r {
-    position: absolute;
-    right: 0;
-    top: 0; }
-    #top .top-r li {
-      height: 33px;
-      float: left;
-      padding: 0 10px;
-      position: relative; }
-      #top .top-r li a {
-        display: inline-block;
-        position: relative; }
-        #top .top-r li a b {
-          width: 0;
-          height: 0;
-          border: 4px solid transparent;
-          border-top-color: #B0B0B0;
-          position: absolute;
-          top: 14px;
-          right: 4px; }
-        #top .top-r li a span {
-          font-weight: 700;
-          margin: 0 3px;
-          color: #666; }
-      #top .top-r li i.iconfont {
-        color: red; }
-      #top .top-r li > div {
-        padding: 8px 10px;
-        position: absolute;
-        top: 33px;
-        border: 1px solid #cecece;
-        border-top: none;
-        display: none;
-        background: #fff;
-        z-index: 500; }
-        #top .top-r li > div a {
-          white-space: nowrap; }
-          #top .top-r li > div a:hover {
-            text-decoration: underline; }
-        #top .top-r li > div img {
-          display: block; }
-    #top .top-r li.mine, #top .top-r li.collect, #top .top-r li.trader, #top .top-r li.navigation {
-      padding: 0;
-      border-left: 1px solid #f2f2f2;
-      border-right: 1px solid #f2f2f2; }
-      #top .top-r li.mine a, #top .top-r li.collect a, #top .top-r li.trader a, #top .top-r li.navigation a {
-        padding-left: 10px;
-        padding-right: 14px; }
-      #top .top-r li.mine:hover, #top .top-r li.collect:hover, #top .top-r li.trader:hover, #top .top-r li.navigation:hover {
-        border-left: 1px solid #cecece;
-        border-right: 1px solid #cecece; }
-        #top .top-r li.mine:hover > a, #top .top-r li.collect:hover > a, #top .top-r li.trader:hover > a, #top .top-r li.navigation:hover > a {
-          text-decoration: underline; }
-        #top .top-r li.mine:hover div, #top .top-r li.collect:hover div, #top .top-r li.trader:hover div, #top .top-r li.navigation:hover div {
-          display: block;
-          background: #fff;
-          z-index: 500; }
-        #top .top-r li.mine:hover b, #top .top-r li.collect:hover b, #top .top-r li.trader:hover b, #top .top-r li.navigation:hover b {
-          width: 0;
-          height: 0;
-          border: 4px solid transparent;
-          border-bottom-color: #B0B0B0;
-          top: 10px; }
-    #top .top-r li.separator {
-      height: 14px;
-      border-left: 1px solid #c8c8c8;
+#head {
+  height: 130px;
+  overflow: hidden; }
+  #head #logo {
+    float: left;
+    padding-left: 10px;
+    overflow: hidden; }
+    #head #logo .txt {
+      font-size: 178px;
+      color: #ff0036;
       position: relative;
-      top: 8px;
-      margin: 0px 2px 0px 5px;
-      padding: 0; }
-    #top .top-r li.phone div {
-      padding: 0;
-      top: 26px;
-      left: -50%; }
-      #top .top-r li.phone div p {
-        text-align: center;
-        font-weight: 700;
-        line-height: 16px; }
-      #top .top-r li.phone div p:nth-child(2) {
+      top: -40px; }
+    #head #logo .cat {
+      font-size: 40px;
+      position: relative;
+      left: -160px;
+      bottom: 36px; }
+  #head #logo-r {
+    float: left;
+    margin-left: 128px;
+    margin-top: 38px; }
+    #head #logo-r .search #txt {
+      width: 481px;
+      height: 36px;
+      border: 2px solid #ff0036;
+      float: left;
+      padding: 0 5px;
+      outline: none; }
+    #head #logo-r .search #btn {
+      width: 130px;
+      height: 40px;
+      background: #ff0036;
+      border: none;
+      font: 18px/40px "";
+      color: #fff; }
+    #head #logo-r ul li {
+      float: left;
+      font: 14px/30px ""; }
+      #head #logo-r ul li a {
+        color: #999; }
+      #head #logo-r ul li a.te {
+        color: #ff0036; }
+      #head #logo-r ul li span {
+        margin-left: 14px;
+        margin-right: 12px; }
+
+#nav {
+  height: 36px;
+  background: #ff0036;
+  font-size: 16px; }
+  #nav .margin {
+    position: relative; }
+  #nav ul {
+    margin-left: 214px; }
+    #nav ul li {
+      float: left;
+      line-height: 36px;
+      position: relative; }
+      #nav ul li a {
+        display: block;
+        color: #fff;
+        margin: 0 15px; }
+        #nav ul li a i {
+          font-size: 18px; }
+      #nav ul li u {
+        color: #ff0036;
+        font-size: 34px;
+        position: absolute;
+        top: -20px;
+        display: none; }
+  #nav dl {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff; }
+    #nav dl dt {
+      background: #e22127;
+      line-height: 36px; }
+      #nav dl dt i {
+        margin: 0 14px; }
+    #nav dl dd {
+      padding-left: 36px;
+      background: #ebe6ee;
+      font-size: 14px;
+      line-height: 50px;
+      position: relative;
+      z-index: 300;
+      color: #000; }
+      #nav dl dd i {
+        color: #666;
+        margin: 0 8px 0 14px; }
+      #nav dl dd a {
         color: #000; }
-      #top .top-r li.phone div p:nth-child(3) {
-        color: red;
-        margin-bottom: 10px; }
-    #top .top-r li.phone：hover div {
+    #nav dl dd:hover {
+      background: #fff; }
+      #nav dl dd:hover a {
+        color: #ff0036; }
+  #nav div.show-content {
+    width: 853px;
+    position: absolute;
+    left: 200px;
+    top: 36px;
+    background: #fafafa;
+    overflow: hidden;
+    display: none;
+    z-index: 300; }
+    #nav div.show-content .show-l {
+      background: #fff;
+      padding-right: 20px;
+      height: 500px;
+      float: left; }
+      #nav div.show-content .show-l .hot-word-line {
+        overflow: hidden; }
+        #nav div.show-content .show-l .hot-word-line h3 {
+          font-size: 12px;
+          padding: 14px 30px;
+          float: left; }
+        #nav div.show-content .show-l .hot-word-line p {
+          padding: 12px 0;
+          width: 470px;
+          float: left;
+          border-bottom: 1px dashed #cecece; }
+          #nav div.show-content .show-l .hot-word-line p a {
+            font: 14px/20px "";
+            margin: 5px;
+            word-break: keep-all;
+            white-space: nowrap; }
+            #nav div.show-content .show-l .hot-word-line p a:hover {
+              color: #e540a1; }
+    #nav div.show-content .show-r {
+      float: left;
+      width: 200px; }
+      #nav div.show-content .show-r .show-r-t {
+        overflow: hidden;
+        width: 200px;
+        float: left; }
+        #nav div.show-content .show-r .show-r-t a {
+          display: inline-block;
+          width: 94px;
+          height: 47px;
+          margin: 0 1px 1px 0;
+          overflow: hidden;
+          background: #fff; }
+          #nav div.show-content .show-r .show-r-t a img {
+            width: 92px;
+            height: 45px;
+            border: 1px solid #000;
+            display: inline-block; }
+
+#banner {
+  height: 500px; }
+  #banner #sliderBox {
+    height: 500px;
+    position: relative;
+    overflow: hidden; }
+    #banner #sliderBox img {
+      width: 1440px;
+      height: 500px; }
+  #banner #sliderList, #banner #sliderNav {
+    position: absolute; }
+  #banner #sliderNav {
+    display: none;
+    left: 625px;
+    bottom: 15px; }
+  #banner #sliderNav li {
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin: 0 6px;
+    background: rgba(153, 153, 153, 0.8);
+    border-radius: 100%;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer; }
+  #banner #sliderNav li:hover, #banner #sliderNav li.hover {
+    background: rgba(240, 240, 240, 0.8); }
+
+#content {
+  background: #f5f5f5;
+  padding-top: 60px; }
+  #content .hotbrand .brand-l {
+    float: left; }
+  #content .hotbrand .brand-r {
+    float: right; }
+  #content .hotbrand .brand-c {
+    float: left;
+    background: #fff;
+    width: 732px;
+    padding-left: 11px;
+    text-align: center; }
+    #content .hotbrand .brand-c li {
+      width: 121px;
+      height: 108px;
+      float: left;
+      border-right: 1px solid #f5f5f5;
+      border-bottom: 1px solid #f5f5f5;
+      position: relative; }
+      #content .hotbrand .brand-c li p {
+        width: 121px;
+        height: 108px; }
+        #content .hotbrand .brand-c li p img {
+          width: 121px; }
+      #content .hotbrand .brand-c li .contain {
+        display: none;
+        width: 121px;
+        height: 108px;
+        background: rgba(51, 51, 51, 0.6);
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 10px; }
+        #content .hotbrand .brand-c li .contain i.iconfont {
+          color: #fff;
+          position: absolute;
+          right: 10px;
+          top: 10px; }
+        #content .hotbrand .brand-c li .contain strong {
+          display: block;
+          line-height: 30px;
+          color: #fff;
+          padding-top: 30px; }
+        #content .hotbrand .brand-c li .contain a {
+          display: block;
+          width: 62px;
+          height: 18px;
+          background: red;
+          color: #fff;
+          border-radius: 18px;
+          margin: 0 auto; }
+    #content .hotbrand .brand-c li:last-child a {
+      display: block;
+      padding-top: 33px;
+      width: 121px;
+      height: 75px;
+      font: 12px/26px "";
+      color: #999; }
+    #content .hotbrand .brand-c li:hover .contain {
       display: block; }
-    #top .top-r li.trader dl {
-      border-bottom: 1px dotted #827777;
-      width: 122px;
-      color: #666; }
-      #top .top-r li.trader dl dt {
-        font-weight: 700; }
-      #top .top-r li.trader dl dd {
-        float: left;
-        width: 50%;
-        font-weight: 600; }
-        #top .top-r li.trader dl dd a {
-          padding: 0; }
-      #top .top-r li.trader dl dd:nth-child(odd) {
-        text-align: right; }
-    #top .top-r li.navigation {
-      padding: 0 10px; }
-      #top .top-r li.navigation .navigation-c {
+  #content .fashion {
+    margin-top: 30px;
+    overflow: hidden; }
+    #content .fashion .fash-con {
+      width: 238px;
+      text-align: center;
+      float: left;
+      margin-right: 10px; }
+      #content .fashion .fash-con h3 {
+        height: 36px;
+        background: #ff0036;
+        font: 700 18px/36px "";
+        color: #fff; }
+      #content .fashion .fash-con h3 i {
+        font-weight: 700;
+        margin-right: 6px; }
+      #content .fashion .fash-con .fash-deta {
         background: #fff;
-        width: 1190px;
-        height: 230px;
-        right: 0;
-        padding: 20px 0;
-        border: 1px solid #f5f5f5; }
-      #top .top-r li.navigation .hot, #top .top-r li.navigation .market, #top .top-r li.navigation .brand, #top .top-r li.navigation .help {
-        width: 275px;
-        height: 200px;
-        float: left;
-        padding-left: 30px;
-        border-right: 1px solid #f5f5f5; }
-        #top .top-r li.navigation .hot h3, #top .top-r li.navigation .market h3, #top .top-r li.navigation .brand h3, #top .top-r li.navigation .help h3 {
-          font: 16px/22px "";
-          color: #f56a00;
-          padding: 10px 0; }
-        #top .top-r li.navigation .hot ul li, #top .top-r li.navigation .market ul li, #top .top-r li.navigation .brand ul li, #top .top-r li.navigation .help ul li {
-          margin-right: 40px;
-          padding: 0;
-          color: #666; }
-          #top .top-r li.navigation .hot ul li:hover a, #top .top-r li.navigation .market ul li:hover a, #top .top-r li.navigation .brand ul li:hover a, #top .top-r li.navigation .help ul li:hover a {
-            color: #F56A00; }
-      #top .top-r li.navigation .market {
-        width: 360px; }
-        #top .top-r li.navigation .market h3 {
-          color: blue; }
-        #top .top-r li.navigation .market ul li {
-          margin-right: 60px; }
-          #top .top-r li.navigation .market ul li:hover a {
-            color: blue; }
-      #top .top-r li.navigation .brand {
-        width: 270px; }
-        #top .top-r li.navigation .brand h3 {
-          color: #666; }
-        #top .top-r li.navigation .brand ul li {
-          margin-right: 40px; }
-          #top .top-r li.navigation .brand ul li:hover a {
-            color: #666; }
-      #top .top-r li.navigation .help {
-        width: 150px;
-        border: none; }
-        #top .top-r li.navigation .help h3 {
-          color: #666; }
-        #top .top-r li.navigation .help ul li:hover a {
-          color: #666; }
+        padding: 0 19px; }
+        #content .fashion .fash-con .fash-deta li:first-child {
+          border-bottom: 1px solid #eee; }
+        #content .fashion .fash-con .fash-deta h4 {
+          font: 22px/28px "";
+          color: #000;
+          padding-top: 18px; }
+        #content .fashion .fash-con .fash-deta p {
+          font: 14px/20px "";
+          color: #888;
+          margin-bottom: 4px; }
+        #content .fashion .fash-con .fash-deta div.valign {
+          width: 140px;
+          height: 140px;
+          background: #f7f7f7;
+          border-radius: 50%;
+          margin: 0 auto;
+          margin-bottom: 9px; }
+          #content .fashion .fash-con .fash-deta div.valign img {
+            width: 102px; }
+        #content .fashion .fash-con .fash-deta li:hover div.valign img {
+          transition: 1s;
+          transform: scale(1.3); }
+    #content .fashion .fash-con:last-child {
+      margin-right: 0; }
 
 /*# sourceMappingURL=index.css.map */

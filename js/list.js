@@ -1,11 +1,11 @@
 $(function() {
-	$("#top").load("index.html");
+	$("#top").load("top.html");
 	$("footer").load("foot.html");
 	$(".btn").click(function() {
 		$(".sN_c ul li:nth-child(4)").nextAll().toggle();
 	});
 	$("#head #logo").click(function() {
-		location.assign("main.html");
+		location.assign("index.html");
 	})
 	
 	$.ajax({

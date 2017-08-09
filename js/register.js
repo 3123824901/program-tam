@@ -160,7 +160,7 @@ $(function() {
 									Cookies.set("user",objToStr,{ expires: 7});
 									
 									console.log(obj,objToStr)
-									location.assign("main.html");
+									location.assign("index.html");
 								}
 							},1000);
 							
@@ -178,10 +178,5 @@ $(function() {
 	})
 	
 	
-	//跳转到登录页面
-	$(".con_3 .a").ready(function(){
-	})
-		
-	function foo(){
-	}
+
 })
