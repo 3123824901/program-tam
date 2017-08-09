@@ -15,7 +15,7 @@ a {
   width: 36px;
   position: fixed;
   top: 150px;
-  left: 50px;
+  left: 30px;
   display: none; }
 
 #LoutiNav ul li {
@@ -44,43 +44,47 @@ a {
 #LoutiNav ul li.last {
   background: #ababab; }
 
-#subject {
+#LoutiNav ul li.hover {
+  background: #F56A00; }
+
+#subject1, #subject2, #subject3 {
   width: 1230px;
   margin: 0 auto; }
-  #subject .Louti {
+  #subject1 .Louti, #subject2 .Louti, #subject3 .Louti {
     margin-top: 30px; }
-    #subject .Louti .title {
+    #subject1 .Louti .title, #subject2 .Louti .title, #subject3 .Louti .title {
       height: 20px;
       font: 18px/20px "";
       color: #000;
       border-left: 5px solid #ea5f8d;
       margin-bottom: 10px;
       overflow: hidden; }
-      #subject .Louti .title p {
+      #subject1 .Louti .title p, #subject2 .Louti .title p, #subject3 .Louti .title p {
         float: left;
         padding-left: 10px; }
-      #subject .Louti .title ul {
+      #subject1 .Louti .title ul, #subject2 .Louti .title ul, #subject3 .Louti .title ul {
         float: right;
         overflow: hidden; }
-        #subject .Louti .title ul li {
+        #subject1 .Louti .title ul li, #subject2 .Louti .title ul li, #subject3 .Louti .title ul li {
           float: left; }
-          #subject .Louti .title ul li a {
+          #subject1 .Louti .title ul li a, #subject2 .Louti .title ul li a, #subject3 .Louti .title ul li a {
             font: 14px/20px "";
             color: #000;
             margin: 0 12px; }
-    #subject .Louti .fill {
-      height: 440px; }
-      #subject .Louti .fill .fill-l {
+    #subject1 .Louti .fill, #subject2 .Louti .fill, #subject3 .Louti .fill {
+      height: 440px;
+      background: #fff; }
+      #subject1 .Louti .fill .fill-l, #subject2 .Louti .fill .fill-l, #subject3 .Louti .fill .fill-l {
         float: left; }
-        #subject .Louti .fill .fill-l .fill-lt {
+        #subject1 .Louti .fill .fill-l .fill-lt, #subject2 .Louti .fill .fill-l .fill-lt, #subject3 .Louti .fill .fill-l .fill-lt {
           width: 246px;
           height: 330px;
           position: relative; }
-          #subject .Louti .fill .fill-l .fill-lt img {
+          #subject1 .Louti .fill .fill-l .fill-lt img, #subject2 .Louti .fill .fill-l .fill-lt img, #subject3 .Louti .fill .fill-l .fill-lt img {
             width: 246px;
             height: 330px;
             display: block; }
-          #subject .Louti .fill .fill-l .fill-lt ul {
+          #subject1 .Louti .fill .fill-l .fill-lt ul, #subject2 .Louti .fill .fill-l .fill-lt ul, #subject3 .Louti .fill .fill-l .fill-lt ul {
             width: 100%;
             height: 30px;
             background: rgba(255, 255, 255, 0.5);
@@ -88,22 +92,22 @@ a {
             bottom: 0;
             left: 0;
             overflow: hidden; }
-            #subject .Louti .fill .fill-l .fill-lt ul li {
+            #subject1 .Louti .fill .fill-l .fill-lt ul li, #subject2 .Louti .fill .fill-l .fill-lt ul li, #subject3 .Louti .fill .fill-l .fill-lt ul li {
               font: 12px/30px "";
               color: #000;
               text-align: center; }
-        #subject .Louti .fill .fill-l .fill-lb {
+        #subject1 .Louti .fill .fill-l .fill-lb, #subject2 .Louti .fill .fill-l .fill-lb, #subject3 .Louti .fill .fill-l .fill-lb {
           position: relative;
           text-align: center;
           height: 110px;
           overflow: hidden; }
-          #subject .Louti .fill .fill-l .fill-lb i {
+          #subject1 .Louti .fill .fill-l .fill-lb i, #subject2 .Louti .fill .fill-l .fill-lb i, #subject3 .Louti .fill .fill-l .fill-lb i {
             font-size: 140px;
             color: #999;
             position: absolute;
             bottom: -86px;
             left: 24px; }
-          #subject .Louti .fill .fill-l .fill-lb p {
+          #subject1 .Louti .fill .fill-l .fill-lb p, #subject2 .Louti .fill .fill-l .fill-lb p, #subject3 .Louti .fill .fill-l .fill-lb p {
             width: 246px;
             height: 110px;
             background: rgba(234, 95, 141, 0.5);
@@ -111,70 +115,63 @@ a {
             position: absolute;
             left: 0;
             top: 0; }
-            #subject .Louti .fill .fill-l .fill-lb p span:nth-child(1) {
+            #subject1 .Louti .fill .fill-l .fill-lb p span:nth-child(1), #subject2 .Louti .fill .fill-l .fill-lb p span:nth-child(1), #subject3 .Louti .fill .fill-l .fill-lb p span:nth-child(1) {
               display: block;
               font: 700 22px/32px "";
               color: #fff; }
-            #subject .Louti .fill .fill-l .fill-lb p span:nth-child(2) {
+            #subject1 .Louti .fill .fill-l .fill-lb p span:nth-child(2), #subject2 .Louti .fill .fill-l .fill-lb p span:nth-child(2), #subject3 .Louti .fill .fill-l .fill-lb p span:nth-child(2) {
               display: block;
               font: 18px/26px "";
               color: #fff; }
-      #subject .Louti .fill .fill-c {
+      #subject1 .Louti .fill .fill-c, #subject2 .Louti .fill .fill-c, #subject3 .Louti .fill .fill-c {
         width: 735px;
         float: left;
         overflow: hidden; }
-        #subject .Louti .fill .fill-c li {
+        #subject1 .Louti .fill .fill-c li, #subject2 .Louti .fill .fill-c li, #subject3 .Louti .fill .fill-c li {
           width: 244px;
           height: 220px;
           float: left;
           margin: 0 1px 1px 0;
           text-indent: 24px;
           position: relative; }
-          #subject .Louti .fill .fill-c li p:nth-child(1) {
+          #subject1 .Louti .fill .fill-c li p:nth-child(1), #subject2 .Louti .fill .fill-c li p:nth-child(1), #subject3 .Louti .fill .fill-c li p:nth-child(1) {
             font: 18px/30px "";
             color: #000;
             padding-top: 22px; }
-          #subject .Louti .fill .fill-c li p:nth-child(2) {
+          #subject1 .Louti .fill .fill-c li p:nth-child(2), #subject2 .Louti .fill .fill-c li p:nth-child(2), #subject3 .Louti .fill .fill-c li p:nth-child(2) {
             font: 14px/26px "";
             color: #ea5fa9; }
-          #subject .Louti .fill .fill-c li img {
+          #subject1 .Louti .fill .fill-c li img, #subject2 .Louti .fill .fill-c li img, #subject3 .Louti .fill .fill-c li img {
             display: block;
             height: 140px;
             width: 140px;
             position: absolute;
             right: 0;
             bottom: 0; }
-      #subject .Louti .fill .fill-r {
+      #subject1 .Louti .fill .fill-r, #subject2 .Louti .fill .fill-r, #subject3 .Louti .fill .fill-r {
         width: 248px;
         float: left;
         overflow: hidden; }
-        #subject .Louti .fill .fill-r li {
+        #subject1 .Louti .fill .fill-r li, #subject2 .Louti .fill .fill-r li, #subject3 .Louti .fill .fill-r li {
           width: 248px;
           height: 146px;
           margin-bottom: 1px;
           text-indent: 24px;
           position: relative; }
-          #subject .Louti .fill .fill-r li p:nth-child(1) {
+          #subject1 .Louti .fill .fill-r li p:nth-child(1), #subject2 .Louti .fill .fill-r li p:nth-child(1), #subject3 .Louti .fill .fill-r li p:nth-child(1) {
             font: 18px/30px "";
             color: #000;
             padding-top: 22px; }
-          #subject .Louti .fill .fill-r li p:nth-child(2) {
+          #subject1 .Louti .fill .fill-r li p:nth-child(2), #subject2 .Louti .fill .fill-r li p:nth-child(2), #subject3 .Louti .fill .fill-r li p:nth-child(2) {
             font: 14px/26px "";
             color: #ea5fa9; }
-          #subject .Louti .fill .fill-r li img {
+          #subject1 .Louti .fill .fill-r li img, #subject2 .Louti .fill .fill-r li img, #subject3 .Louti .fill .fill-r li img {
             display: block;
             height: 70px;
             width: 70px;
             position: absolute;
             right: 0;
             bottom: 0; }
-
-.ad img {
-  width: 1230px;
-  height: 92px;
-  margin-top: 8px;
-  border: 0;
-  display: block; }
 
 .Louti .title-te {
   width: 1230px;

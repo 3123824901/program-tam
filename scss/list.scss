@@ -1,6 +1,50 @@
 @charset "utf-8";
 .margin{width:1190px;margin:0 auto;}
 #banner img{width:100%;cursor:pointer;}
+#head{
+    height:130px;
+    overflow:hidden;
+    #logo{
+        float:left;
+        padding-left:10px; 
+        overflow:hidden;  
+        cursor:pointer;   
+        .txt{
+            font-size:178px;
+            color:#ff0036;
+            position: relative;
+            top:-40px;
+        }
+        .cat{
+            font-size:40px;
+            position:relative;
+            left:-160px;
+            bottom:36px;
+        }
+    }
+    #logo-r{
+        float:left;
+        margin-left:128px;
+        margin-top:38px;
+        .search{
+            #txt{width:481px;height:36px;border:2px solid #ff0036;float:left;padding:0 5px;outline:none}
+            #btn{width:130px;height:40px;background:#ff0036;border:none;font:18px/40px "";color:#fff;}
+        }
+        ul{           
+            li{
+                float:left;
+                font:14px/30px "";
+                a{color:#999;}
+                a.te{color:#ff0036;}           
+                span{margin-left:14px;margin-right:12px;}
+            }            
+        }
+    }
+}
+
+
+
+
 #main{
     .subNav{
         font-size:12px;
@@ -58,11 +102,9 @@
     .page{
         margin-top:40px;margin-bottom:20px;font-size:14px;color:#999;text-align:center;
         a{display:inline-block;color:#2953a6;padding:10px;margin-left:-5px;
-          border:1px solid #ccc;border-right:0;}
-        a:nth-child(1){color:#999;background:#efefef;}
-        .lve:nth-child(3){margin:0 5px;}
+          border:1px solid #ccc;}
+        .active{color:#999;background:#efefef;}
         #nums a:nth-child(3),a:nth-child(4){border-right:1px solid #ccc;}
-        a.active{background:#efefef;}
         span.total{margin-left:5px;}
         #page_txt{width:32px;height:19px;border:1px solid #ccc;text-align:center;}
         #page_btn{width:46px;height:24px;background:#fff;border:1px solid #ccc;outline:0;cursor:pointer;}

@@ -1,0 +1,68 @@
+html, body {
+  height: 100%; }
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 35px;
+  background: #000;
+  height: 100%;
+  font-size: 12px;
+  padding-top: 162px;
+  color: #fff;
+  text-align: center; }
+  aside a {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    width: 90px;
+    height: 34px;
+    line-height: 30px;
+    color: #fff;
+    background: #666; }
+  aside .con {
+    position: relative; }
+  aside .aside_t div {
+    position: relative; }
+  aside .aside_t .vip {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+    aside .aside_t .vip i.iconfont {
+      font-size: 20px; }
+  aside .aside_t .cart {
+    padding: 20px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    aside .aside_t .cart i.iconfont {
+      font-size: 20px;
+      color: #ff0036; }
+    aside .aside_t .cart u {
+      font-weight: 700;
+      color: #ff0036; }
+  aside .aside_t .cart:hover i.iconfont {
+    color: #fff; }
+  aside .aside_t .cart ~ div {
+    height: 34px;
+    margin: 7px 0;
+    line-height: 34px; }
+    aside .aside_t .cart ~ div:hover {
+      background: #ff0036; }
+  aside .aside_t div:hover {
+    background: #ff0036; }
+  aside .aside_b {
+    position: absolute;
+    bottom: -160px;
+    left: 0; }
+    aside .aside_b div {
+      position: relative;
+      width: 35px;
+      height: 34px;
+      margin: 7px 0;
+      line-height: 34px; }
+      aside .aside_b div:hover {
+        background: #ff0036; }
+
+/*# sourceMappingURL=asideR.css.map */

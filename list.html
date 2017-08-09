@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>列表页</title>
-		<link rel="stylesheet" type="text/css" href="css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="css/list.css"/>
-		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/list.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
 		<section id="top"></section>
-		<section id="head"></section>
+		<section id="head">
+			<div class="margin">
+				<div id="logo">
+					<i class="iconfont txt">&#xe610;</i>
+					<i class="iconfont cat">&#xe75e;</i>
+				</div>
+				<div id="logo-r">
+					<div class="search">
+						<input type="text" id="txt">
+						<input type="button" value="搜索" id="btn">
+					</div>
+					<ul class="clear">
+						<li>
+							<a href="#" class="te">t恤男</a><span>|</span></li>
+						<li>
+							<a href="#">连衣裙</a><span>|</span></li>
+						<li>
+							<a href="#">夏凉被</a><span>|</span></li>
+						<li>
+							<a href="#" class="te">空调</a><span>|</span></li>
+						<li>
+							<a href="#">客厅灯</a><span>|</span></li>
+						<li>
+							<a href="#">连衣裙</a><span>|</span></li>
+						<li>
+							<a href="#" class="te">夏凉被</a><span>|</span></li>
+						<li>
+							<a href="#">空调</a><span>|</span></li>
+						<li>
+							<a href="#" class="te">客厅灯</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
 		<section id="banner">
-			<img src="images/list1.png"	>
+			<img src="images/list1.png">
 		</section>
 		<section id="main">
 			<div class="margin">
 				<div class="subNav">
 					<div class="sN_t">
-						<a href="#">全部</a><span>&gt;</span><a href="#">品牌：Huawei/华为</a><span>&gt;</span><input type="text" id="txt">
+						<a href="#">全部</a><span>&gt;</span>
+						<a href="#">品牌：Huawei/华为</a><span>&gt;</span><input type="text" id="txt">
 					</div>
 					<div class="sN_c">
 						<span><img src="images/list2.png"> 分类</span>
-						<ul class="clear">							
-							<li><a href="#">手机</a></li>
-							<li><a href="#">平板电脑</a></li>
-							<li><a href="#">只能手环</a></li>
-							<li><a href="#">网络高清播放器</a></li>
-							<li><a href="#">手机</a></li>
-							<li><a href="#">平板电脑</a></li>
-							<li><a href="#">只能手环</a></li>
-							<li><a href="#">网络高清播放器</a></li>
-							<li><a href="#">手机</a></li>
-							<li><a href="#">平板电脑</a></li>
-							<li><a href="#">只能手环</a></li>
-							<li><a href="#">网络高清播放器</a></li>
+						<ul class="clear">
+							<li>
+								<a href="#">手机</a>
+							</li>
+							<li>
+								<a href="#">平板电脑</a>
+							</li>
+							<li>
+								<a href="#">只能手环</a>
+							</li>
+							<li>
+								<a href="#">网络高清播放器</a>
+							</li>
+							<li>
+								<a href="#">手机</a>
+							</li>
+							<li>
+								<a href="#">平板电脑</a>
+							</li>
+							<li>
+								<a href="#">只能手环</a>
+							</li>
+							<li>
+								<a href="#">网络高清播放器</a>
+							</li>
+							<li>
+								<a href="#">手机</a>
+							</li>
+							<li>
+								<a href="#">平板电脑</a>
+							</li>
+							<li>
+								<a href="#">只能手环</a>
+							</li>
+							<li>
+								<a href="#">网络高清播放器</a>
+							</li>
 						</ul>
 						<a href="javascript:;" class="btn">更多 ∨</a>
 					</div>
@@ -45,47 +106,47 @@
 					</div>
 				</div>
 				<div class="list">
-					<ul class="clear">							
+					<ul class="clear">
 						<script id="navCon" type="text/html">
-							{{each mainList as item i}}
-								{{if i<=14}}
-								<li>
-									<div class="bord">										
-											<img src="{{item.src1}}" class="show">
-											<p class="kind">
-												<img src="{{item.src2}}">
-												<img src="{{item.src3}}">
-											</p>
-											<p class="text">
-												<span class="price">{{item.pric}}</span><br>
-												<a href="#" class="tit">{{item.tit}}</a>
-												<a href="#" class="des">{{item.des}}</a><br>
-												<a href="#" class="home">{{item.home}}</a><a href="#" class="home">等更多商家  &gt;</a>
-												<span class="total">该款月成交  <strong>{{item.total}}</strong></span>
-											</p>									
-									</div>
+							{{each mainList as item i}} {{if i
+							<=14}} <li>
+								<a href="{{item.link}}">
+									<div class="bord">
+										<img src="{{item.src1}}" class="show">
+										<p class="kind">
+											<img src="{{item.src2}}">
+											<img src="{{item.src3}}">
+										</p>
+										<p class="text">
+											<span class="price">{{item.pric}}</span><br>
+											<a href="#" class="tit">{{item.tit}}</a>
+											<a href="#" class="des">{{item.des}}</a><br>
+											<a href="#" class="home">{{item.home}}</a>
+											<a href="#" class="home">等更多商家 &gt;</a>
+											<span class="total">该款月成交  <strong>{{item.total}}</strong></span>
+										</p>
+								</a>
+								</div>
 								</li>
-								{{/if}}
-							{{/each}}
+								{{/if}} {{/each}}
 						</script>
 					</ul>
 					<div class="page">
 						<a href="javascript:;">&lt;&lt;上一页</a>
-						<span id="nums">
+						<span id="nums">														
 							<a href="javascript:;" class="active">1</a>
 							<a href="javascript:;">2</a>
-							<a href="javascript:;">3</a>
+							<a href="javascript:;">3</a>							
 						</span>
-						<span class="lve">...</span>
 						<a href="javascript:;">下一页&gt;&gt;</a>
-						<span class="total">共51页，到第<input type="text" id="page_txt">页</span> 
+						<span class="total">共51页，到第<input type="text" id="page_txt">页</span>
 						<input type="button" value="确定" id="page_btn">
 					</div>
 				</div>
 			</div>
 		</section>
 		<section id="hot">
-			<div class="margin">				
+			<div class="margin">
 				<div class="hot-t">
 					<span>您是不是想找
 						<a href="#">荣耀</a><b>|</b>
@@ -150,10 +211,12 @@
 					</ul>
 				</div>
 				<div class="hot-b">
-					<input type="text" id="search"><a href="#" target="_blank">搜索</a>
+					<input type="text" id="search">
+					<a href="#" target="_blank">搜索</a>
 				</div>
 			</div>
 		</section>
 		<footer></footer>
 	</body>
+
 </html>

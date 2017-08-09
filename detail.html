@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>详情页</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/detail.css" />
 		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js-cookie.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+		
 	</head>
-
 	<body>
 		<header></header>
 		<section id="store">
@@ -67,26 +67,28 @@
 			</ul>
 		</nav>
 		<section id="show">
-			<div class="margin">				
-				<div id="zoomArea">
-					<div id="middleArea">
-						<img src="images/detailM1.jpg">
-						<div id="zoom"></div>
+			<script id="detail" type="text/html">
+				<div class="margin">					
+					<div id="zoomArea">
+						<div id="middleArea">
+							<img src="{{src1}}">
+							<div id="zoom"></div>
+						</div>
+						<div id="bigArea" style="z-index: 500;">
+							<img src="{{src1}}">
+						</div>
+						<ul class="clear" id="smallArea">
+							{{each src2 as item i}}
+							<li><img src="{{item}}"></li>
+							{{/each}}
+						</ul>
 					</div>
-					<div id="bigArea">
-						<img src="images/detailB1.jpg">
-					</div>
-					<ul class="clear" id="smallArea">
-						<li><img src="images/detailS1.jpg"></li>
-						<li><img src="images/detailS3.jpg"></li>
-					</ul>
-				</div>								
-				<div class="choseCon">
-					<h3>分期免急速发货【送实用礼】华为p9全网通手机p9高配<br><span>热销20000台&nbsp;分期免急速发&nbsp;莱卡双摄</span></h3>
-					<p class="yunfei"><span>运费</span></p>
+					<div class="choseCon">
+					<h3>{{tit}}<br><span>热销20000台&nbsp;&nbsp;&nbsp;{{des}}</span></h3>
+					<p class="yunfei"><span>价格</span>&nbsp;&nbsp;&nbsp;{{pric}}</p>
 					<p class="xiao">
-						<span>月销量</span><i>170</i><b>|</b>
-						<a href="#">累计评价<i>3586</i></a><b>|</b>
+						<span>月销量&nbsp;&nbsp;</span><i>{{total}}</i><b>|</b>
+						<a href="#">累计评价&nbsp;&nbsp;<i>3586</i></a><b>|</b>
 						<a href="#">送天猫积分&nbsp;送3倍共<i>839</i></a>
 					</p>
 					<div class="chose">
@@ -104,17 +106,17 @@
 						<p><label>套餐类型</label><a href="javascript:;" class="active"><em>官方标配</em></a><a href="javascript:;"><em>套餐一</em></a></p>
 						<p><label>存储容量</label><a href="javascript:;" class="active"><em>64G</em></a><a href="javascript:;"><em>32G</em></a></p>
 						<p class="chose_txt">
-							<label>数量</label><input type="text" value="1">
+							<label>数量</label><input type="text" value="1" class="nums">
 							<img src="images/shangji.png" class="act1"><img src="images/xiaji.png" class="act2">
 							<span>件</span>&nbsp;&nbsp;库存36件
 						</p>
 						<p><label>服务</label><a href="#">碎屏无忧1年 ￥125.80</a></p>
-						<p class="butt"><a href="#" class="butt1">分期购买</a><a href="#" class="butt2">加入购物车</a></p>
+						<p class="butt"><a href="javascript:;" class="butt1">分期购买</a><a href="javascript:;" class="butt2">加入购物车</a></p>
 					</div>
-				</div>	
-			</div>
+				</div>
+			</script>
 		</section>
-		<div id="match">
+		<div id="match" style="margin-top:50px">
 			<div class="margin clear">
 				<ul class="matchNav">
 					<li class="active">自由搭配</li>
@@ -130,12 +132,12 @@
 		</div>
 		<div id="comPro">
 			<div class="margin clear">
-				<aside>
+				<div class="aside_l">
 					<img src="images/aside0.png">
 					<img src="images/aside1.jpg">
 					<img src="images/aside2.gif">
 					<img src="images/aside4.png">
-				</aside>
+				</div>
 				<article>
 					<ul class="artList">
 						<li class="active">商品详情</li>
@@ -181,6 +183,7 @@
 				</article>
 			</div>	
 		</div>
-		<footer style="margin-top:50px;"></footer>
+		<section id="asideR"></section>
+		<footer style="margin-top:50px;"></footer>		
 	</body>
 </html>

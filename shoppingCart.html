@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/shoppingCart.css"/>
 		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js-cookie.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/shoppingCart.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
 	</head>
@@ -15,7 +16,7 @@
 		<section id="shoppingCart">
 			<div class="margin">
 				<div class="search clear">
-					<a href="#" class="logo"><img src="images/cart.png"></a>											
+					<a href="main.html" class="logo"><img src="images/cart.png"></a>											
 					<div class="sear_r">
 						<select>
 							<option>宝贝</option>
@@ -27,7 +28,7 @@
 					</div>
 				</div>
 				<ul class="tot clear">
-					<li class="active">全部商品&nbsp;<span>2</span><i>|</i></li>
+					<li class="active">全部商品&nbsp;<span class="shu">2</span><i>|</i></li>
 					<li>降价商品&nbsp;<span>0</span><i>|</i></li>
 					<li>库存紧张&nbsp;<span>0</span><i>|</i></li>
 					<li class="te">已选商品（不含运费）<span>0.00</span><a href="#">结&nbsp;算</a></li>
@@ -42,32 +43,64 @@
 						<span>操作</span>
 					</div>
 					<ul class="choice_c">
-						<li>
-							<p class="store"><i></i><span>店铺：华为官方旗舰店</span></p>
-							<ul class="goods">
-								<li>
-									<i></i>
-									<img src="images/detailS1.jpg">
-									<span class="title">华为上的飞机升空间分店受到了房价降幅</span>
-									<span class="des">颜色分类：科技示范多家开发商交付</span>
-									<span class="price">￥2300.60</span>
-									<span class="num"><em>-</em><input type="text" value="2"></input><em>+</em></span>
-									<span class="cal">￥4601.20</span>
-									<span class="coll">
-										<a href="javascript:;">移入收藏夹</a>
-										<a href="javascript:;">删除</a>
-									</span>
-								</li>
-							</ul>
-						</li>
-						
-						
+						<script id="detail" type="text/html">
+							<li class="classify">
+								<p class="store"><i></i><span>店铺：{{home}}</span></p>
+								<ul class="goods">
+									{{each lit as item i}}
+									<li class="list_d">
+										<i></i>
+										<img src="{{item.src1}}">
+										<span class="title">{{item.des}}</span>
+										<span class="des">颜色分类：科技示范多家开发商交付</span>
+										<span class="price">{{item.pric}}</span>
+										<span class="num"><em>-</em><input type="text" value="2" data-id="{{item.id}}"></input><em>+</em></span>
+										<span class="cal">￥4601.20</span>
+										<span class="coll">
+											<a href="javascript:;">移入收藏夹</a>
+											<a href="javascript:;" class="remove">删除</a>
+										</span>
+									</li>
+									{{/each}}
+								</ul>
+							</li>
+						</script>
 					</ul>
 					<div class="choice_b">
-						aaaaa
-					</div>
+						<!--<div class="left">
+							<i></i><span></span>
+							<span>删除</span>
+							<span>移入收藏夹</span>
+							<span>分享</span>
+						</div>-->
+						<div class="right">
+							<span>已选商品<b class="sum">0</b>件</span>
+							<span>合计（不含运费）：<b class="money">0.00</b></span>
+							<a href="#">结 算</a>
+						</div>
+					</div>					
 				</div>
 			</div>
 		</section>
+		<div class="cover">
+			<div>
+				<h3>删除宝贝</h3>
+				<p>确认要删除该宝贝吗？</p>
+				<a href="javascript:;" class="btn1">确 定</a> 
+				<a href="javascript:;" class="btn2">关 闭</a> 
+				<i>✖</i>
+			</div>
+		</div>
+		<aside>
+			<a href="javascript:;">
+				<img src="images/shop.png">
+				<span>回到顶部</span>
+			</a>
+			<a href="javascript:;">
+				<img src="images/shop2.png">
+				<span>我要反馈</span>
+			</a>
+		</aside>
+		<footer style="margin-top:80px"></footer>
 	</body>
 </html>

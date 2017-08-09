@@ -1,0 +1,346 @@
+{
+	"mainList":{
+		"1001":{			
+			"link":"detail.html?id=1001",
+			"src1":"images/list4.jpg",			
+			"src2":["images/list4.jpg","images/list41.jpg","images/list55.jpg"],
+			"pric":"￥3788.00",
+			"tit":"分期免急速发货【送实用礼】华为p9全网通手机p9高配",
+			"des":"前置老卡的开发商开发的放松放松",
+			"home":"华为官方旗舰店",
+			"total":"1.5万笔"
+			},
+		"1002":{
+			"link":"detail.html?id=1002",
+			"src1":"images/list10.jpg",
+			"src2":["images/list10.jpg","images/list51.jpg","images/list52.jpg"],
+			"pric":"￥2300.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"583笔"
+			},
+		"1003":{
+			"link":"detail.html?id=1003",
+			"src1":"images/list6.jpg",
+			"src2":["images/list6.jpg","images/list54.jpg","images/list53.jpg"],
+			"pric":"￥4088.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"1004":{
+			"link":"detail.html?id=1004",
+			"src1":"images/list8.jpg",
+			"src2":["images/list8.jpg","images/list43.jpg","images/list53.jpg"],
+			"pric":"￥2316.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"1005":{
+			"link":"detail.html?id=1005",
+			"src1":"images/list6.jpg",
+			"src2":["images/list6.jpg","images/list54.jpg","images/list53.jpg"],
+			"pric":"￥2488.50",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"1006":{
+			"link":"detail.html?id=1006",
+			"src1":"images/list5.jpg",
+			"src2":["images/list5.jpg","images/list63.jpg","images/list61.jpg"],
+			"pric":"￥3800.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"诗诗美妆；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"2183笔"
+			},
+		"1007":{
+			"link":"detail.html?id=1007",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list51.jpg","images/list53.jpg"],
+			"pric":"￥4030.40",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"一直没拍；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"1383笔"
+			},
+		"1008":{
+			"link":"detail.html?id=1008",
+			"src1":"images/list10.jpg",
+			"src2":["images/list10.jpg","images/list54.jpg","images/list53.jpg"],
+			"pric":"￥3208.80",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"自拍神奇；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"3122笔"
+			},
+		"1009":{
+			"link":"detail.html?id=1009",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list55.jpg","images/list53.jpg"],
+			"pric":"￥2314.88",
+			"tit":"Huawei/华为 Mate8",
+			"des":"前置徕卡；光学防抖；持久续航",
+			"home":"华为官方旗舰店",
+			"total":"583笔"
+			},
+		"10010":{
+			"link":"detail.html?id=10010",
+			"src1":"images/list4.jpg",
+			"src2":["images/list4.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥3788.00",
+			"tit":"Huawei/华为 P10",
+			"des":"前置老卡的开发商开发的放松放松",
+			"home":"华为官方旗舰店",
+			"total":"1.5万笔"
+			},
+		"10012":{
+			"link":"detail.html?id=10012",
+			"src1":"images/list5.jpg",
+			"src2":["images/list5.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥3300.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"583笔"
+			},
+		"10011":{
+			"link":"detail.html?id=10011",
+			"src1":"images/list6.jpg",
+			"src2":["images/list6.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥3666.50",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10013":{
+			"link":"detail.html?id=10013",
+			"src1":"images/list7.jpg",
+			"src2":["images/list7.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥2888.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10014":{
+			"link":"detail.html?id=10014",
+			"src1":"images/list8.jpg",
+			"src2":["images/list8.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥6500.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10015":{
+			"link":"detail.html?id=10015",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥3300.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"诗诗美妆；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"2183笔"
+			},
+		"10016":{
+			"link":"detail.html?id=10016",
+			"src1":"images/list10.jpg",
+			"src2":["images/list10.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥2700.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"一直没拍；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"1383笔"
+			},
+		"10017":{
+			"link":"detail.html?id=10017",
+			"src1":"images/list4.jpg",
+			"src2":["images/list4.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥5500.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"自拍神奇；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"3122笔"
+			},
+		"10018":{
+			"link":"detail.html?id=10018",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥7800.00",
+			"tit":"Huawei/华为 Mate8",
+			"des":"前置徕卡；光学防抖；持久续航",
+			"home":"华为官方旗舰店",
+			"total":"583笔"
+			},
+		"10019":{
+			"link":"detail.html?id=10019",
+			"src1":"images/list4.jpg",
+			"src2":["images/list4.jpg","images/list51.jpg","images/list42.jpg"],
+			"pric":"￥3788.00",
+			"tit":"Huawei/华为 P10",
+			"des":"前置老卡的开发商开发的放松放松",
+			"home":"华为官方旗舰店",
+			"total":"1.5万笔"
+			},
+		"10020":{
+			"link":"detail.html?id=10020",
+			"src1":"images/list10.jpg",
+			"src2":["images/list10.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4000.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"583笔"
+			},
+		"10021":{
+			"link":"detail.html?id=10021",
+			"src1":"images/list6.jpg",
+			"src2":["images/list6.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4300.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10022":{
+			"link":"detail.html?id=10022",
+			"src1":"images/list8.jpg",
+			"src2":["images/list8.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4000.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10023":{
+			"link":"detail.html?id=10023",
+			"src1":"images/list6.jpg",
+			"src2":["images/list6.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥5000.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10024":{
+			"link":"detail.html?id=10024",
+			"src1":"images/list5.jpg",
+			"src2":["images/list5.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4600.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"诗诗美妆；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"2183笔"
+			},
+		"10025":{
+			"link":"detail.html?id=10025",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4080.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"一直没拍；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"1383笔"
+			},
+		"10026":{
+			"link":"detail.html?id=10026",
+			"src1":"images/list10.jpg",
+			"src2":["images/list10.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4220.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"自拍神奇；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"3122笔"
+			},
+		"10027":{
+			"link":"detail.html?id=10027",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥3800.00",
+			"tit":"Huawei/华为 Mate8",
+			"des":"前置徕卡；光学防抖；持久续航",
+			"home":"华为官方旗舰店",
+			"total":"583笔"
+			},
+		"10028":{
+			"link":"detail.html?id=10028",
+			"src1":"images/list4.jpg",
+			"src2":["images/list4.jpg","images/list51.jpg","images/list42.jpg"],
+			"pric":"￥3788.00",
+			"tit":"Huawei/华为 P10",
+			"des":"前置老卡的开发商开发的放松放松",
+			"home":"华为官方旗舰店",
+			"total":"1.5万笔"
+			},
+		"10029":{
+			"link":"detail.html?id=10029",
+			"src1":"images/list5.jpg",
+			"src2":["images/list5.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4000.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"583笔"
+			},
+		"10030":{
+			"link":"detail.html?id=10030",
+			"src1":"images/list6.jpg",
+			"src2":["images/list6.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4000.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10031":{
+			"link":"detail.html?id=10031",
+			"src1":"images/list7.jpg",
+			"src2":["images/list7.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥5620.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10032":{
+			"link":"detail.html?id=10032",
+			"src1":"images/list8.jpg",
+			"src2":["images/list8.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥3888.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"莱卡双摄象；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"383笔"
+			},
+		"10033":{
+			"link":"detail.html?id=10033",
+			"src1":"images/list9.jpg",
+			"src2":["images/list9.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥4710.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"诗诗美妆；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"2183笔"
+			},
+		"10034":{
+			"link":"detail.html?id=10034",
+			"src1":"images/list10.jpg",
+			"src2":["images/list10.jpg","images/list41.jpg","images/list42.jpg"],
+			"pric":"￥5500.00",
+			"tit":"Huawei/华为 麦芒7",
+			"des":"一直没拍；光学防抖；持久续航",
+			"home":"三际数码官方旗舰店",
+			"total":"1383笔"
+			}			
+			
+				
+	}
+}

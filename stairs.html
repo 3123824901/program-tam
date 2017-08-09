@@ -1,602 +1,203 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
-		<link rel="stylesheet" type="text/css" href="css/stairs.css"/>
+		<title>楼梯</title>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/stairs.css" />
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/stairs.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		<div id="stairs">
+		<div class="stairs">
 			<div id="LoutiNav">
 				<ul>
 					<li class="first">导航</li>
 					<li><span>美丽人生</span></li>
 					<li><span>潮电酷玩</span></li>
 					<li><span>居家生活</span></li>
-					<li><span>打造爱巢</span></li>
-					<li><span>户外出行</span></li>
-					<li><span>亲子时光</span></li>
-					<li><span>猜你喜欢</span></li>
 					<li class="last"><span>^ 顶部</span></li>
 				</ul>
-			</div>			
-			<div id="subject">
-				<div class="Louti">
-					<div class="title">
-						<p>美丽人生&nbsp;&nbsp;FJDSA&JDFFA</p>
-						<ul>
-							<li><a href="#">连衣裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">美容护肤</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-							<li><a href="#">连裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">护肤</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-						</ul>
-					</div>
-					<div class="fill">
-						<div class="fill-l">
-							<a href="#">
-								<div class="fill-lt">
-									<img src="images/stairs1.jpg">
-									<ul>
-										<li>理11发店凯撒</li>
-										<li>离22高考复读考生</li>
-										<li>若33撇清平日</li>
-									</ul>
-								</div>
-								<div class="fill-lb">
-									<i class="iconfont">&#xe636;</i>
-									<p>
-										<span>弗拉索兰多夫卡</span>
-										<span>肯定是激发</span>
-									</p>
-								</div>
-							</a>
-						</div>
-						<ul class="fill-c">
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-						</ul>
-						<ul class="fill-r">
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-						</ul>
-					</div>					
-				</div>
-				<div class="Louti">
-					<div class="title">
-						<p>美丽人生&nbsp;&nbsp;FJDSA&JDFFA</p>
-						<ul>
-							<li><a href="#">连衣裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">美容护肤</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-							<li><a href="#">连裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">护肤</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-						</ul>
-					</div>
-					<div class="fill">
-						<div class="fill-l">
-							<a href="#">
-								<div class="fill-lt">
-									<img src="images/stairs1.jpg">
-									<ul>
-										<li>理11发店凯撒</li>
-										<li>离22高考复读考生</li>
-										<li>若33撇清平日</li>
-									</ul>
-								</div>
-								<div class="fill-lb">
-									<i class="iconfont">&#xe636;</i>
-									<p>
-										<span>弗拉索兰多夫卡</span>
-										<span>肯定是激发</span>
-									</p>
-								</div>
-							</a>
-						</div>
-						<ul class="fill-c">
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-						</ul>
-						<ul class="fill-r">
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-						</ul>
-					</div>					
-				</div>
-				<div class="ad"><img src="images/ad2.jpg"></div>
-				<div class="Louti">
-					<div class="title">
-						<p>居家生活&nbsp;&nbsp;FJDSA&JDFFA</p>
-						<ul>
-							<li><a href="#">连衣裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">美容护肤</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-							<li><a href="#">连裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">护肤</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-						</ul>
-					</div>
-					<div class="fill">
-						<div class="fill-l">
-							<a href="#">
-								<div class="fill-lt">
-									<img src="images/stairs1.jpg">
-									<ul>
-										<li>理11发店凯撒</li>
-										<li>离22高考复读考生</li>
-										<li>若33撇清平日</li>
-									</ul>
-								</div>
-								<div class="fill-lb">
-									<i class="iconfont">&#xe636;</i>
-									<p>
-										<span>弗拉索兰多夫卡</span>
-										<span>肯定是激发</span>
-									</p>
-								</div>
-							</a>
-						</div>
-						<ul class="fill-c">
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-						</ul>
-						<ul class="fill-r">
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-						</ul>
-					</div>					
-				</div>
-				<div class="Louti">
-					<div class="title">
-						<p>打造爱巢&nbsp;&nbsp;HOME</p>
-						<ul>
-							<li><a href="#">连衣裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">美容护肤</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-							<li><a href="#">连裙</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">护肤</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-						</ul>
-					</div>
-					<div class="fill">
-						<div class="fill-l">
-							<a href="#">
-								<div class="fill-lt">
-									<img src="images/stairs1.jpg">
-									<ul>
-										<li>理11发店凯撒</li>
-										<li>离22高考复读考生</li>
-										<li>若33撇清平日</li>
-									</ul>
-								</div>
-								<div class="fill-lb">
-									<i class="iconfont">&#xe636;</i>
-									<p>
-										<span>弗拉索兰多夫卡</span>
-										<span>肯定是激发</span>
-									</p>
-								</div>
-							</a>
-						</div>
-						<ul class="fill-c">
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-						</ul>
-						<ul class="fill-r">
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-						</ul>
-					</div>					
-				</div>
-				<div class="ad"><img src="images/ad3.jpg"></div>
-				<div class="Louti">
-					<div class="title">
-						<p>户外出行&nbsp;&nbsp;OUTDOORS</p>
-						<ul>
-							<li><a href="#">车秒带</a></li>
-							<li><a href="#">皮肤衣</a></li>
-							<li><a href="#">运动鞋</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-						</ul>
-					</div>
-					<div class="fill">
-						<div class="fill-l">
-							<a href="#">
-								<div class="fill-lt">
-									<img src="images/stairs1.jpg">
-									<ul>
-										<li>理11发店凯撒</li>
-										<li>离22高考复读考生</li>
-										<li>若33撇清平日</li>
-									</ul>
-								</div>
-								<div class="fill-lb">
-									<i class="iconfont">&#xe636;</i>
-									<p>
-										<span>弗拉索兰多夫卡</span>
-										<span>肯定是激发</span>
-									</p>
-								</div>
-							</a>
-						</div>
-						<ul class="fill-c">
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-						</ul>
-						<ul class="fill-r">
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-						</ul>
-					</div>					
-				</div>
-				<div class="Louti">
-					<div class="title">
-						<p>亲子时光&nbsp;&nbsp;KIDS&BABY</p>
-						<ul>
-							<li><a href="#">车秒带</a></li>
-							<li><a href="#">皮肤衣</a></li>
-							<li><a href="#">运动鞋</a></li>
-							<li><a href="#">t恤男</a></li>
-							<li><a href="#">休闲男鞋</a></li>
-						</ul>
-					</div>
-					<div class="fill">
-						<div class="fill-l">
-							<a href="#">
-								<div class="fill-lt">
-									<img src="images/stairs1.jpg">
-									<ul>
-										<li>理11发店凯撒</li>
-										<li>离22高考复读考生</li>
-										<li>若33撇清平日</li>
-									</ul>
-								</div>
-								<div class="fill-lb">
-									<i class="iconfont">&#xe636;</i>
-									<p>
-										<span>弗拉索兰多夫卡</span>
-										<span>肯定是激发</span>
-									</p>
-								</div>
-							</a>
-						</div>
-						<ul class="fill-c">
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs3.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs2.jpg"></a>
-							</li>
-							<li><a href="#">
-								<p>科技发达是激发</p>
-								<p>升幅达科技发达看见对方</p>
-								<img src="images/stairs4.jpg"></a>
-							</li>
-						</ul>
-						<ul class="fill-r">
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-							<li><a href="#">								
-									<p>科技发达是激发</p>
-									<p>升幅达科技发达看见对方</p>
-									<img src="images/stairs5.jpg"></a>								
-							</li>
-						</ul>
-					</div>					
-				</div>
-				<div class="ad"><a href="#"><img src="images/ad1.jpg"></a></div>
-				<div class="Louti">
-					<div class="title-te">
-						<p>——<i class="iconfont">&#xe621;</i>猜你喜欢 ——</p>
-					</div>
-					<ul class="maybe">
-						<li>
-							
-						</li>
-					</ul>
-				</div>
 			</div>
-		</div>	
+			<div id="subject1" class="subject1">
+				<script id="Louti" type="text/html">					
+					<div class="Louti">
+						<div class="title">							
+							<p>{{remc.tit}}</p>
+							<ul>
+								{{each remc.a as val key}}
+								<li>
+									<a href="{{val.link}}">{{val.txt}}</a>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+						<div class="fill">
+							<div class="fill-l">								
+								<a href="#">									
+									<div class="fill-lt">
+										<img src="{{fill_l.src}}">
+										<ul>
+											<li>{{fill_l.des}}</li>
+										</ul>
+									</div>
+									<div class="fill-lb">
+										<i class="iconfont">&#xe636;</i>
+										<p>
+											<span>{{fill_l.hh}}</span>
+											<span>{{fill_l.hh2}}</span>
+										</p>
+									</div>
+								</a>								
+							</div>
+							<ul class="fill-c">
+								{{each fill_c as item i}}
+								<li>
+									<a href="#">
+										<p>{{item.hh1}}</p>
+										<p>{{item.hh}}</p>
+										<img src="{{item.src}}">
+									</a>
+								</li>
+								{{/each}}
+							</ul>
+							<ul class="fill-r">
+								{{each fill_r as item i}}
+								<li>
+									<a href="#">
+										<p>{{item.hh3}}</p>
+										<p>{{item.hh4}}</p>
+										<img src="{{item.src}}">
+									</a>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+					</div>
+				</script>
+			</div>
+			<div id="subject2" class="subject2">
+				<script id="Louti" type="text/html">					
+					<div class="Louti">
+						<div class="title">							
+							<p>{{remc.tit}}</p>
+							<ul>
+								{{each remc.a as val key}}
+								<li>
+									<a href="{{val.link}}">{{val.txt}}</a>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+						<div class="fill">
+							<div class="fill-l">								
+								<a href="#">									
+									<div class="fill-lt">
+										<img src="{{fill_l.src}}">
+										<ul>
+											<li>{{fill_l.des}}</li>
+										</ul>
+									</div>
+									<div class="fill-lb">
+										<i class="iconfont">&#xe636;</i>
+										<p>
+											<span>{{fill_l.hh}}</span>
+											<span>{{fill_l.hh2}}</span>
+										</p>
+									</div>
+								</a>								
+							</div>
+							<ul class="fill-c">
+								{{each fill_c as item i}}
+								<li>
+									<a href="#">
+										<p>{{item.hh1}}</p>
+										<p>{{item.hh}}</p>
+										<img src="{{item.src}}">
+									</a>
+								</li>
+								{{/each}}
+							</ul>
+							<ul class="fill-r">
+								{{each fill_r as item i}}
+								<li>
+									<a href="#">
+										<p>{{item.hh3}}</p>
+										<p>{{item.hh4}}</p>
+										<img src="{{item.src}}">
+									</a>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+					</div>
+				</script>
+			</div>
+			<div id="subject3" class="subject3">
+				<script id="Louti" type="text/html">					
+					<div class="Louti">
+						<div class="title">							
+							<p>{{remc.tit}}</p>
+							<ul>
+								{{each remc.a as val key}}
+								<li>
+									<a href="{{val.link}}">{{val.txt}}</a>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+						<div class="fill">
+							<div class="fill-l">								
+								<a href="#">									
+									<div class="fill-lt">
+										<img src="{{fill_l.src}}">
+										<ul>
+											<li>{{fill_l.des}}</li>
+										</ul>
+									</div>
+									<div class="fill-lb">
+										<i class="iconfont">&#xe636;</i>
+										<p>
+											<span>{{fill_l.hh}}</span>
+											<span>{{fill_l.hh2}}</span>
+										</p>
+									</div>
+								</a>								
+							</div>
+							<ul class="fill-c">
+								{{each fill_c as item i}}
+								<li>
+									<a href="#">
+										<p>{{item.hh1}}</p>
+										<p>{{item.hh}}</p>
+										<img src="{{item.src}}">
+									</a>
+								</li>
+								{{/each}}
+							</ul>
+							<ul class="fill-r">
+								{{each fill_r as item i}}
+								<li>
+									<a href="#">
+										<p>{{item.hh3}}</p>
+										<p>{{item.hh4}}</p>
+										<img src="{{item.src}}">
+									</a>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+					</div>
+				</script>
+			</div>
 		<script type="text/javascript">
-			$(function(){
-				var flag = true;
-				function scroll(){
-					var scrollTop = $(window).scrollTop();
-					//var hei=$("#content").offset().top;
-					scrollTop > 1000 ? $("#LoutiNav").fadeIn(300) : $("#LoutiNav").fadeOut(300);
-					$(".Louti").each(function(){
-						if(scrollTop > $(this).offset().top - $(this).outerHeight()/2){
-							$("#LoutiNav li").eq(($(this).index()+1)).css("background","#F62760")
-							.siblings(":not(:first)").css("background","#626262");
-							$("#LoutiNav li:last").css("background","#ababab");
-						}
-					})
-				}				
-				$(window).scroll(function(){
-					if(flag){
-						scroll();
-					}
-					
-				});				
-				$("#LoutiNav li:not(:last)").click(function(){
-					flag = false;
-					$(this).addClass("hover").siblings().removeClass("hover");
-					$("body,html").stop().animate({"scrollTop":$(".Louti").eq($(this).index()).offset().top},500,function(){
-						flag  = true;
-					});					
-				})				
-				$("#LoutiNav li:last").click(function(){
-					flag = false;
-					$("body,html").stop().animate({"scrollTop":0},500,function(){
-						flag  = true;
-					});
-				});
-				$(".fill-l").hover(function(){
-					$(this).find("img").animate({"opacity":".7"},300).siblings().find("li").css("color","red");
-				},function(){
-					$(this).find("img").animate({"opacity":"1"},300).siblings().find("li").css("color","#000");
-				});
-				$(".fill-c").find("li").hover(function(){
-					$(this).find("img").animate({"right":6},300);
-				},function(){
-					$(this).find("img").animate({"right":0},300);
-				});
-				$(".fill-r").find("li").hover(function(){
-					$(this).find("img").animate({"right":6},300);
-				},function(){
-					$(this).find("img").animate({"right":0},300);
-				});
-				
-			});
+			
+			
+			
+			
+			
 		</script>
 	</body>
 </html>

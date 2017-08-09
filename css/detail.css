@@ -136,11 +136,11 @@ nav {
         position: absolute;
         width: 800px;
         height: 800px; }
-    #show #zoomArea ul li {
+    #show #zoomArea ul#smallArea li {
       float: left;
       margin: 20px 14px;
       border: 2px solid white; }
-      #show #zoomArea ul li img {
+      #show #zoomArea ul#smallArea li img {
         display: block;
         width: 56px;
         height: 56px;
@@ -157,8 +157,11 @@ nav {
       color: #ff0036;
       font-weight: 100; }
   .choseCon p.yunfei {
-    font: 12px/44px "";
-    color: #999; }
+    font: 22px/44px "";
+    color: #ff0036; }
+    .choseCon p.yunfei span {
+      font: 12px/44px "";
+      color: #999; }
   .choseCon p.xiao {
     font: 12px/36px "";
     color: #999;
@@ -250,11 +253,11 @@ nav {
     #match .matchCon li img {
       display: block; }
 
-#comPro aside {
+#comPro .aside_l {
   float: left;
   margin-top: 20px;
   width: 188px; }
-  #comPro aside img {
+  #comPro .aside_l img {
     display: block;
     margin-bottom: 10px; }
 #comPro article {

@@ -10,7 +10,7 @@ a{text-decoration: none;}
     width: 36px;
     position: fixed;
     top: 150px;
-    left: 50px;
+    left: 30px;
     display: none;
 }
 
@@ -36,11 +36,12 @@ a{text-decoration: none;}
 }
 #LoutiNav ul li.first {background: #ff0036;}
 #LoutiNav ul li.last {background: #ababab;}
-#subject {
+#LoutiNav ul li.hover{background:#F56A00;}
+#subject1,#subject2,#subject3{
     width: 1230px;
     margin: 0 auto;
     .Louti {        
-        margin-top:30px;
+        margin-top:30px;        
         .title{
             height:20px;
             font:18px/20px "";
@@ -59,7 +60,7 @@ a{text-decoration: none;}
             }
         }
         .fill{
-            height:440px;
+            height:440px;background:#fff;
             .fill-l{
                 float:left;
                 .fill-lt{
@@ -123,7 +124,6 @@ a{text-decoration: none;}
         }
     }
 }
-.ad img{width:1230px;height:92px;margin-top:8px;border:0;display:block;}
 .Louti .title-te{
     width:1230px;text-align:center;font-size:18px;color:#666;
     i{color:red;margin:0 8px;}

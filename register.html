@@ -6,7 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/register.css"/>
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/js-cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>		
 	</head>
 	<body>
 		<header>
@@ -14,7 +15,6 @@
 				<ul class="clear">
 					<li class="active"><span>1</span> 设置用户名</li>
 					<li><span>2</span> 填写账户信息</li>	
-					<!--<li><span>3</span> 设置支付方式</li>-->
 					<li><span>√</span> 注册成功</li>
 				</ul>
 			</div>
@@ -30,13 +30,16 @@
 								<option>中国香港&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+886</option>
 							</select>
 							<input type="text" placeholder="请输入你的手机号" id="txt">
-							<span style='display:none;color:red;font-size:6px;'>× 请输入你的手机号码</span>
+							<span>
+								<img src="images/judge1.png"><img src="images/judge2.png">
+								<i>请输入你的手机号码</i>
+							</span>
 					</p>
 					<div class="verify">
 						<label>验证</label>
-						<p class="box">
-							<b class="drag">&gt;&gt;</b>
-							请按住滑块，拖动到最右边
+						<p class="box">							
+							<b class="drag"><i>&gt;&gt;</i><img src="images/judge1.png"></b>
+							<span>请按住滑块，拖动到最右边</span>
 						</p>
 					</div>
 					<p><input type="button" value="下一步" id="btn"></p>
@@ -46,24 +49,29 @@
 					<div class="pass">
 						<h3><label>设置登录密码</label><span>登录时验证，保护找户信息</span></h3>
 						<p><label>登录密码</label><input type="password" placeholder="设置你的登录密码" id="psw1"></p>						
-						<p><label>密码确认</label><input type="password" placeholder="请再次输入你的密码" id="psw2"><span class="msg2">请再次输入你的密码</span></p>
-						
+						<p>
+							<label>密码确认</label><input type="password" placeholder="请再次输入你的密码" id="psw2">
+							<span class="msg2"><img src="images/judge1.png" style="display:none;"><img src="images/judge2.png"><b>密码不正确,请重新输入</b></span>
+						</p>					
 					</div>
 					<div class="vip">
 						<h3><label>设置会员名</label></h3>
-						<p><label>登录名</label><input type="text" placeholder="会员名一旦设置成功，无法修改" id="txt2"><span class="msg3">建议会员名使用简体中文</span></p>						
+						<p><label>会员名</label><input type="text" placeholder="会员名一旦设置成功，无法修改" id="txt2"><span class="msg3">账户名只能使用数字字母下划线，且数字不能开头，长度在6-15之间</span></p>						
 					</div>
 					<p><input type="button" value="提交" id="btn3"></p>
 					<div class="msg1">
 						<p>强度：<span></span><span></span><span></span></p>
 						<ul>
-							<li>6~20个字符</li>
-							<li>只能包含字母、数字以及空格</li>
-							<li>字母、数字和空格至少包含2种</li>
+							<li>1.密码只能使用数字、字母及下划线</li>
+							<li>2.以字母开头，以数字结尾</li>
+							<li>3.密码长度至少为8</li>
 						</ul>
 					</div>			
 				</div>
-				<div class="con_3">您已注册成功</div>								
+				<div class="con_3">
+					<h3>恭喜~~您已注册成功！</h3>
+					<p>&nbsp;<i class="times">5</i><span>秒后跳转到主页面</span></p>
+				</div>								
 			</div>
 		</div>
 		<div id="cover">
@@ -76,7 +84,7 @@
 				<br><a href="#">《淘宝服务协议》</a>						
 			</p>
 			<p><input type="button" value="同意协议" id="btn1"></p>
-			<button id="btn2">x</button>
+			<a href="main.html" id="btn2">x</a>
 		</div>
 	</body>
 </html>

@@ -2,6 +2,7 @@
 	"mainList":[
 			{
 			"id":"1001",
+			"link":"detail.html?id=1001",
 			"src1":"images/list4.jpg",
 			"src2":"images/list41.jpg",
 			"src3":"images/list55.jpg",
@@ -14,10 +15,11 @@
 			},
 			{
 			"id":"1002",
+			"link":"detail.html?id=1002",
 			"src1":"images/list10.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list52.jpg",
-			"pric":"￥4000.00",
+			"pric":"￥2300.00",
 			"tit":"Huawei/华为 麦芒7",
 			"des":"莱卡双摄象；光学防抖；持久续航",
 			"home":"三际数码官方旗舰店",
@@ -25,23 +27,25 @@
 			},
 			{
 			"id":"1003",
+			"link":"detail.html?id=1003",
 			"src1":"images/list6.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
-			"pric":"￥4000.00",
+			"pric":"￥3888.00",
 			"tit":"Huawei/华为 麦芒7",
-			"des":"莱卡双摄象；光学防抖；持久续航",
+			"des":"弗洛萨科夫打瞌睡疯狂举动是否就撒娇范德萨监督法",
 			"home":"三际数码官方旗舰店",
 			"total":"383笔"
 			},
 			{
 			"id":"1004",
+			"link":"detail.html?id=1004",
 			"src1":"images/list8.jpg",
 			"src2":"images/list43.jpg",
 			"src3":"images/list53.jpg",
-			"pric":"￥4000.00",
+			"pric":"￥2316.00",
 			"tit":"Huawei/华为 麦芒7",
-			"des":"莱卡双摄象；光学防抖；持久续航",
+			"des":"哦饿睿哦i额外日俄我日就斯达康将是范德萨",
 			"home":"三际数码官方旗舰店",
 			"total":"383笔"
 			},
@@ -50,7 +54,7 @@
 			"src1":"images/list6.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
-			"pric":"￥4000.00",
+			"pric":"￥1488.00",
 			"tit":"Huawei/华为 麦芒7",
 			"des":"莱卡双摄象；光学防抖；持久续航",
 			"home":"三际数码官方旗舰店",
@@ -58,6 +62,7 @@
 			},
 			{
 			"id":"1006",
+			"link":"detail.html?id=1006",
 			"src1":"images/list5.jpg",
 			"src2":"images/list63.jpg",
 			"src3":"images/list61.jpg",
@@ -69,6 +74,7 @@
 			},
 			{
 			"id":"1007",
+			"link":"detail.html?id=1007",
 			"src1":"images/list9.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list53.jpg",
@@ -80,6 +86,7 @@
 			},
 			{
 			"id":"1008",
+			"link":"detail.html?id=1008",
 			"src1":"images/list10.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -91,6 +98,7 @@
 			},
 			{
 			"id":"1009",
+			"link":"detail.html?id=1009",
 			"src1":"images/list9.jpg",
 			"src2":"images/list55.jpg",
 			"src3":"images/list53.jpg",
@@ -100,7 +108,8 @@
 			"home":"华为官方旗舰店",
 			"total":"583笔"
 			},{
-			"id":"1001",
+			"id":"10010",
+			"link":"detail.html?id=10010",
 			"src1":"images/list4.jpg",
 			"src2":"images/list41.jpg",
 			"src3":"images/list42.jpg",
@@ -112,7 +121,8 @@
 			"total":"1.5万笔"
 			},
 			{
-			"id":"1002",
+			"id":"10012",
+			"link":"detail.html?id=10012",
 			"src1":"images/list5.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list52.jpg",
@@ -123,7 +133,8 @@
 			"total":"583笔"
 			},
 			{
-			"id":"1003",
+			"id":"10011",
+			"link":"detail.html?id=10011",
 			"src1":"images/list6.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -134,7 +145,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1004",
+			"id":"10013",
+			"link":"detail.html?id=10013",
 			"src1":"images/list7.jpg",
 			"src2":"images/list43.jpg",
 			"src3":"images/list53.jpg",
@@ -145,7 +157,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1005",
+			"id":"10014",
+			"link":"detail.html?id=10014",
 			"src1":"images/list8.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -156,7 +169,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1006",
+			"id":"10015",
+			"link":"detail.html?id=10015",
 			"src1":"images/list9.jpg",
 			"src2":"images/list63.jpg",
 			"src3":"images/list61.jpg",
@@ -167,7 +181,8 @@
 			"total":"2183笔"
 			},
 			{
-			"id":"1007",
+			"id":"10016",
+			"link":"detail.html?id=10016",
 			"src1":"images/list10.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list53.jpg",
@@ -178,7 +193,8 @@
 			"total":"1383笔"
 			},
 			{
-			"id":"1008",
+			"id":"10017",
+			"link":"detail.html?id=10017",
 			"src1":"images/list4.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -189,7 +205,8 @@
 			"total":"3122笔"
 			},
 			{
-			"id":"1009",
+			"id":"10018",
+			"link":"detail.html?id=10018",
 			"src1":"images/list9.jpg",
 			"src2":"images/list55.jpg",
 			"src3":"images/list53.jpg",
@@ -199,7 +216,8 @@
 			"home":"华为官方旗舰店",
 			"total":"583笔"
 			},{
-			"id":"1001",
+			"id":"10019",
+			"link":"detail.html?id=10019",
 			"src1":"images/list4.jpg",
 			"src2":"images/list41.jpg",
 			"src3":"images/list55.jpg",
@@ -211,7 +229,8 @@
 			"total":"1.5万笔"
 			},
 			{
-			"id":"1002",
+			"id":"10020",
+			"link":"detail.html?id=10020",
 			"src1":"images/list10.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list52.jpg",
@@ -222,7 +241,8 @@
 			"total":"583笔"
 			},
 			{
-			"id":"1003",
+			"id":"10021",
+			"link":"detail.html?id=10021",
 			"src1":"images/list6.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -233,7 +253,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1004",
+			"id":"10022",
+			"link":"detail.html?id=10022",
 			"src1":"images/list8.jpg",
 			"src2":"images/list43.jpg",
 			"src3":"images/list53.jpg",
@@ -244,7 +265,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1005",
+			"id":"10023",
+			"link":"detail.html?id=10023",
 			"src1":"images/list6.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -255,7 +277,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1006",
+			"id":"10024",
+			"link":"detail.html?id=10024",
 			"src1":"images/list5.jpg",
 			"src2":"images/list63.jpg",
 			"src3":"images/list61.jpg",
@@ -266,7 +289,8 @@
 			"total":"2183笔"
 			},
 			{
-			"id":"1007",
+			"id":"10025",
+			"link":"detail.html?id=10025",
 			"src1":"images/list9.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list53.jpg",
@@ -277,7 +301,8 @@
 			"total":"1383笔"
 			},
 			{
-			"id":"1008",
+			"id":"10026",
+			"link":"detail.html?id=10026",
 			"src1":"images/list10.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -288,7 +313,8 @@
 			"total":"3122笔"
 			},
 			{
-			"id":"1009",
+			"id":"10027",
+			"link":"detail.html?id=10027",
 			"src1":"images/list9.jpg",
 			"src2":"images/list55.jpg",
 			"src3":"images/list53.jpg",
@@ -298,7 +324,8 @@
 			"home":"华为官方旗舰店",
 			"total":"583笔"
 			},{
-			"id":"1001",
+			"id":"10028",
+			"link":"detail.html?id=10028",
 			"src1":"images/list4.jpg",
 			"src2":"images/list41.jpg",
 			"src3":"images/list42.jpg",
@@ -310,7 +337,8 @@
 			"total":"1.5万笔"
 			},
 			{
-			"id":"1002",
+			"id":"10029",
+			"link":"detail.html?id=10029",
 			"src1":"images/list5.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list52.jpg",
@@ -321,7 +349,8 @@
 			"total":"583笔"
 			},
 			{
-			"id":"1003",
+			"id":"10030",
+			"link":"detail.html?id=10030",
 			"src1":"images/list6.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -332,7 +361,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1004",
+			"id":"10031",
+			"link":"detail.html?id=10031",
 			"src1":"images/list7.jpg",
 			"src2":"images/list43.jpg",
 			"src3":"images/list53.jpg",
@@ -343,7 +373,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1005",
+			"id":"10032",
+			"link":"detail.html?id=10032",
 			"src1":"images/list8.jpg",
 			"src2":"images/list54.jpg",
 			"src3":"images/list53.jpg",
@@ -354,7 +385,8 @@
 			"total":"383笔"
 			},
 			{
-			"id":"1006",
+			"id":"10033",
+			"link":"detail.html?id=10033",
 			"src1":"images/list9.jpg",
 			"src2":"images/list63.jpg",
 			"src3":"images/list61.jpg",
@@ -365,7 +397,8 @@
 			"total":"2183笔"
 			},
 			{
-			"id":"1007",
+			"id":"10034",
+			"link":"detail.html?id=10034",
 			"src1":"images/list10.jpg",
 			"src2":"images/list51.jpg",
 			"src3":"images/list53.jpg",

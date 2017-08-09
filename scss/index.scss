@@ -11,6 +11,7 @@ $fontsize:12px;
     font-size:12px;
     line-height:32px;
     color:#999;
+    
     .margin{
        position: relative; 
     }
@@ -62,6 +63,8 @@ $fontsize:12px;
                 border:1px solid #cecece;
                 border-top:none;
                 display:none;
+                background:#fff;
+                z-index:500;
                 a{
                     white-space: nowrap;
                     &:hover{
@@ -75,18 +78,20 @@ $fontsize:12px;
         }
         li.mine,li.collect,li.trader,li.navigation{
             padding:0;
-            a{
+            border-left:1px solid #f2f2f2;
+            border-right:1px solid #f2f2f2;
+            a{               
                 padding-left:10px;
                 padding-right:14px;
             }
-            &:hover{
-                
-                background:#fff;
+            &:hover{                               
                 border-left:1px solid #cecece;
                 border-right:1px solid #cecece;
                 >a{text-decoration: underline;}
                 div{
-                    display:block;                  
+                    display:block; 
+                    background:#fff;  
+                    z-index:500;               
                 }
                 b{
                     width: 0;
@@ -149,8 +154,11 @@ $fontsize:12px;
         li.navigation{
             padding:0 10px;
             .navigation-c{ 
-                width:1190px;              
+                background:#fff;
+                width:1190px; 
+                height:230px;             
                 right:0;
+                padding:20px 0;
                 border:1px solid #f5f5f5;             
             }
             .hot,.market,.brand,.help{               

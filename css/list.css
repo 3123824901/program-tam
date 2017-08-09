@@ -6,6 +6,53 @@
   width: 100%;
   cursor: pointer; }
 
+#head {
+  height: 130px;
+  overflow: hidden; }
+  #head #logo {
+    float: left;
+    padding-left: 10px;
+    overflow: hidden;
+    cursor: pointer; }
+    #head #logo .txt {
+      font-size: 178px;
+      color: #ff0036;
+      position: relative;
+      top: -40px; }
+    #head #logo .cat {
+      font-size: 40px;
+      position: relative;
+      left: -160px;
+      bottom: 36px; }
+  #head #logo-r {
+    float: left;
+    margin-left: 128px;
+    margin-top: 38px; }
+    #head #logo-r .search #txt {
+      width: 481px;
+      height: 36px;
+      border: 2px solid #ff0036;
+      float: left;
+      padding: 0 5px;
+      outline: none; }
+    #head #logo-r .search #btn {
+      width: 130px;
+      height: 40px;
+      background: #ff0036;
+      border: none;
+      font: 18px/40px "";
+      color: #fff; }
+    #head #logo-r ul li {
+      float: left;
+      font: 14px/30px ""; }
+      #head #logo-r ul li a {
+        color: #999; }
+      #head #logo-r ul li a.te {
+        color: #ff0036; }
+      #head #logo-r ul li span {
+        margin-left: 14px;
+        margin-right: 12px; }
+
 #main .subNav {
   font-size: 12px; }
   #main .subNav .sN_t {
@@ -118,17 +165,12 @@
     color: #2953a6;
     padding: 10px;
     margin-left: -5px;
-    border: 1px solid #ccc;
-    border-right: 0; }
-  #main .page a:nth-child(1) {
+    border: 1px solid #ccc; }
+  #main .page .active {
     color: #999;
     background: #efefef; }
-  #main .page .lve:nth-child(3) {
-    margin: 0 5px; }
   #main .page #nums a:nth-child(3), #main .page a:nth-child(4) {
     border-right: 1px solid #ccc; }
-  #main .page a.active {
-    background: #efefef; }
   #main .page span.total {
     margin-left: 5px; }
   #main .page #page_txt {
